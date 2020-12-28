@@ -2,7 +2,7 @@ var readlineSync = require('readline-sync');
 var chalk = require('chalk');
 console.log(chalk.bold.red("WELCOME TO LEAPYEAR FINDER"));
 
-var BirthYear = readlineSync.question(chalk.bold.yellow("Enter your birth year "));
+var BirthYear = readlineSync.question(chalk.bold.yellow("Enter your birth year or the year you want to check is leap or not"));
 
 if(BirthYear%4==0)
 {
